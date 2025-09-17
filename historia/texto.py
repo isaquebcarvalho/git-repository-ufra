@@ -1,0 +1,147 @@
+def intro():
+    print("""O jogador (não identificado) é um presidiário prestes a entrar no corredor da morte, quando de repente é interrogado por alguns homens de terno desconhecidos.
+     Eles lhe prometem reabilitação e liberdade, desde que aceite ficar internado em um hospital recém-criado pelo governo.
+    Sem alternativas, o jogador aceita, com a condição de ser dopado até chegar ao hospital, para que não descubra o caminho.""")
+    print()
+
+def morte_dormindo():
+    print("""Ao voltar a dormir, acaba sendo encontrado pelo monstro e morre.""")
+    print()
+    print("""FIM""")
+    print()
+
+def analisar_quarto():
+    print("""O jogador olha em volta e vê sua cama, um porta e uma mesa de metal.""")
+
+def morte_cama():
+    print("""Um monstro ataca o jogador, resultando em morte imediata""")
+    print()
+    print("""FIM""")
+    print()
+
+def opcao_invalida():
+    print("""Opção invalida, tente de novo""")
+    print()
+
+def check_porta_metal_falha():
+    print("""Apenas nota que é uma porta de metal trancada.""")
+    print()
+
+def check_porta_metal_sucesso():
+    print("""O jogador consegue abrir a porta.""")
+    print()
+
+def mesa_de_metal():
+    print("""O jogador encontra a gaveta ligeiramente aberta. Dentro há papéis e uma Chave  (o jogador pega a chave)""")
+    print()
+
+def mesa_de_metal_vazia():
+    print("""Nada mais interessa o jogador na mesa""")
+    print()
+
+def corredor_duas_portas_esquerda_vitoria():
+    print("""O jogador acende a lanterna que chama a atenção do monstro que habitava na escuridão. 
+           usando a espingarda o jogador finaliza o monstro. liberando o caminho.""")
+    print()
+
+def corredor_duas_portas_esquerda_morte():
+    print("""O jogador entra na escuridão e é brutalmente morto pelos monstros que estavam lá.""")
+    print()
+    print("""FIM""")
+    print()
+
+def agradecimento():
+    print("""Obrigado por jogar!""")
+    print()
+
+def check_sala_seguranca():
+    print("""O jogador continua seu caminho no corredor.
+     no fundo tem uma porta trancada por senha e com uma placa em cima escrita: "Sala de segurança""")
+    print()
+
+def check_sala_seguranca_falhou():
+    print("""O jogador não possuí a senha e decide ir embora""")
+    print()
+
+def check_sala_seguranca_sucesso():
+    print("""O jogador destranca a porta.""")
+    print()
+
+def final_revelacao():
+    print("""Dentro da sala, o jogador encontra uma sala com várias TVs e uma fita cassete.
+     Descobre que tudo fazia parte de um experimento para a criação de uma arma biológica visando uma futura guerra mundial e que esteve sendo observado desde o início.""")
+    print("""FIM""")
+
+def porta_recepcao():
+    print("""O jogador chega à recepção.""")
+    print()
+
+def mesa_recepcao():
+    print("""O jogador analisa a mesa de recepção, uma mesa de madeira velha com muita papelada, em sua gaveta tem uma lanterna.
+(O jogador pega a lanterna.)""")
+    print()
+
+def mesa_recepcao_vazia():
+    print("""Nada além de papéis""")
+    print()
+
+def check_porta_saida_falha():
+    print("""O jogador nota que é uma porta de vidro trancada, um pouco embaçada, o que impossibilita a visão de fora.""")
+    print()
+
+def check_porta_saida_sucesso():
+    print("""O jogador abre a porta.""")
+    print()
+
+def final_fuga():
+    print("""O jogador decide sair em seguida, ele consegue abrir a porta de vidro e escapar do hospital imediatamente""")
+    print()
+    print("""FIM""")
+    print()
+
+def entrar_corredor_tres_portas():
+    print("""O jogador segue para o corredor em sua frente.""")
+    print()
+
+def sala_cirurgica():
+    print("""O jogador se depara com uma sala de cirurgia.
+     Sobre a mesa à sua frente, algo está coberto por um pano.
+      Na verdade, é um monstro, que desperta com o barulho e ataca o jogador.""")
+
+def check_sala_cirurgica_sucesso():
+    print("""O jogador pega a espingarda e mata o monstro ( -1 bala).""")
+    print()
+
+def check_sala_cirurgica_falha():
+    print("""O jogador é atacado e morre.""")
+    print()
+    print("""FIM""")
+    print()
+
+def sala_cirurgica_vazia():
+    print("""Nada de interessante na sala, apenas o corpo do monstro.""")
+    print()
+
+def armario_enfermagem():
+    print("""O jogador encontra pastas com documentos de pessoas marcadas.
+     Entre elas, está seu próprio documento o identificando como: jhon, idade: 23, Genêro: masculino, ID paciente: 023.
+      no final dos documentos tem um código.""")
+    print()
+
+def armario_enfermagem_vazio():
+    print("""Nada mais interessa o jogador dentro do armário.""")
+    print()
+
+def mesa_enfermagem():
+    print("""Nas gavetas da mesa, o jogador encontra a chave da saída. (O jogador pega a chave da saída)""")
+    print()
+
+def mesa_enfermagem_vazia():
+    print("""Apenas papéis.""")
+    print()
+
+def deposito():
+    print("""O jogador se depara com um depósito, tem muitos caixotes velhos ao redor e uma espingarda no meio delas.""")
+    print()
+    print("""O jogador agora tem uma espingarda (1 bala).""")
+    print()
